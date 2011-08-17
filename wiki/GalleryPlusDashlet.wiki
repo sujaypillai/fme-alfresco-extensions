@@ -1,5 +1,5 @@
 #summary Image gallery dashlet for Alfresco Share in the style of the G+ gallery.
-#labels alfresco,dashlet
+#labels alfresco,dashlet,Featured
 
 = Introduction =
 
