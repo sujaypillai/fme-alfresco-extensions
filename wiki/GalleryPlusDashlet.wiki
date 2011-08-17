@@ -1,0 +1,11 @@
+#summary Image gallery dashlet for Alfresco Share in the style of the G+ gallery.
+
+= Introduction =
+
+The Gallery Plus dashlet was developeed for the 2011 Alfresco dashlet challenge by Florian Maul. I features a thumbnail view and an popup dialog with an image preview.
+
+= Preview =
+
+Currently only a video preview is available:
+
+http://www.youtube.com/watch?v=CPRgZgtpDqw
