@@ -1,4 +1,5 @@
 #summary Image gallery dashlet for Alfresco Share in the style of the G+ gallery.
+#labels alfresco,dashlet
 
 = Introduction =
 
@@ -8,4 +9,4 @@ The Gallery Plus dashlet was developeed for the 2011 Alfresco dashlet challenge 
 
 Currently only a video preview is available:
 
-http://www.youtube.com/watch?v=CPRgZgtpDqw
+<wiki:video url="http://www.youtube.com/watch?v=CPRgZgtpDqw"/>
