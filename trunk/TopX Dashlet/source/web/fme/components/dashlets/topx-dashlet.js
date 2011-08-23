@@ -261,7 +261,7 @@ if (typeof(fme.module) == "undefined") fme.module={};
          }
          
          html += "<div class=\"topx-doc\">\n";
-         	html +="<div class=\"thumbnail\">\n <ul id=\"pics\"><li><a class=\"viewImageAction\" href=\""+doc.nodeRefId+"\"><img src=\""+icon+"\" style=\"background: url("+background+";background-repeat:no-repeat \" width=\"75px\" title=\""+(place+1)+". place\"/></a></li></ul></div>\n";
+         	html +="<div class=\"thumbnail\">\n <ul id=\"pics\"><li><img src=\""+icon+"\" style=\"background: url("+background+";background-repeat:no-repeat \" width=\"75px\" title=\""+(place+1)+". place\"/></li></ul></div>\n";
          	html +="<div class=\"pictures\">";
          	html +="<a href=\""+$html(Alfresco.constants.PROXY_URI)+"api/node/content/workspace/SpacesStore/"+doc.nodeRefId+"/"+doc.name+"?a=true\"><img title=\""+doc.contentMimetype+" - "+doc.contentSizeFormatted+"\" src=\""+Alfresco.constants.URL_RESCONTEXT+"components/documentlibrary/images/download-16.png\"/></a></br>";
             html +="<a href=\""+$html(Alfresco.constants.URL_PAGECONTEXT)+"site/"+doc.siteName+"/documentlibrary#filter=path%7C"+doc.sitePath+"\"><img id=\"downloadInfo\" title=\""+doc.displayPath+"\" src=\""+Alfresco.constants.URL_RESCONTEXT+"components/documentlibrary/images/folder-open-16.png\"/></a>";
