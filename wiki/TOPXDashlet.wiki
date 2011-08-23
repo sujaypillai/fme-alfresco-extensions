@@ -1,4 +1,5 @@
 #labels Phase-Deploy
+<wiki:toc max_depth="2" />
 = TOPX Dashlet for Alfresco Share =
 
 Author: Jens Goldhammer
@@ -26,11 +27,10 @@ Following features are implemented:
 Caveeats:
   * Maxitems is fix at the moment (no configuration provided)
 
-= Screenshot =
+== Screenshots ==
 
-https://code.google.com/p/fme-alfresco-extensions/source/browse/trunk/TopX%20Dashlet/documentation/(1)%20Alfresco%20Share%20%C2%BB%20User%20Dashboard%20-%20TOPX%20Dashlet.png
-
-= Installation =
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/TopX%20Dashlet/documentation/(1)%20Alfresco%20Share%20%C2%BB%20User%20Dashboard%20-%20TOPX%20Dashlet.png
+== Installation ==
 
 The component has been developed to install on top of an existing Alfresco
 3.4 installation.
@@ -56,7 +56,7 @@ property in Ant.
 Once you have run this you will need to restart Tomcat so that the classpath 
 resources in the JAR file are picked up.
 
-= Using the dashlet =
+== Using the dashlet ==
 
 Please do the following steps to get the dashlet running:
 
@@ -72,17 +72,14 @@ Please modify the path variable in line 4
 -- var path='PATH:"/app:company_home/st:sites/cm:demosite/cm:documentLibrary//*"'; --  
 
 
-= Testing =
+== Testing ==
 
 Testing the search webscript via url
 
 http://localhost:8080/alfresco/service/de/fme/dashlet/topx/find?queryType=d&maxItems=50
 
-= Roadmap= 
+== Roadmap==
 
 Following features are on the roadmap:
-  * clicking on the thumbnail should open the web previewer 
-to display a preview of the document
+  * clicking on the thumbnail should open the web previewer to display a preview of the document
   * provide a configuration dialog
-
-
