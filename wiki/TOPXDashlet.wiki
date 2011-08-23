@@ -1,4 +1,4 @@
-#labels Phase-Deploy
+#labels Phase-Deploy,Featured
 <wiki:toc max_depth="2" />
 = TOPX Dashlet for Alfresco Share =
 
