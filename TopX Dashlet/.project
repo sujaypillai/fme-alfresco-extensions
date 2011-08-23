@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TopX Dashlet</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>repo</name>
+			<type>2</type>
+			<location>C:/Alfresco/tomcat/webapps/alfresco</location>
+		</link>
+		<link>
+			<name>share</name>
+			<type>2</type>
+			<location>C:/Alfresco/tomcat/webapps/share</location>
+		</link>
+	</linkedResources>
+</projectDescription>
