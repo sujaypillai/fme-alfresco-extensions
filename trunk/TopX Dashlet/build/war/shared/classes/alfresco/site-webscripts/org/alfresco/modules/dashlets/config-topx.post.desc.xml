@@ -1,0 +1,6 @@
+<webscript>
+  <shortname>topx-configuration-post</shortname>
+  <description>POST webscript of configuration dialog for Topx dashlet</description>
+  <url>/modules/dashlet/topx/config/{componentId}</url>
+  <format default="json">argument</format>
+</webscript>

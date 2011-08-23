@@ -1,0 +1,5 @@
+<webscript>
+  <shortname>config-topx</shortname>
+  <description>Configuration dialog for TOPX dashlet</description>
+  <url>/modules/dashlets/topx/config</url>
+</webscript>
