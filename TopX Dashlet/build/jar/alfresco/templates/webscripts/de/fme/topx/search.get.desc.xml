@@ -1,7 +1,0 @@
-<webscript>
-   <shortname>find the topx nodes</shortname>
-   <description>Execute a lucene query to find results for the TOP x dashlet</description>
-   <url>/de/fme/dashlet/topx/find</url>
-   <format default="json">extension</format>
-   <authentication>user</authentication>
-</webscript>

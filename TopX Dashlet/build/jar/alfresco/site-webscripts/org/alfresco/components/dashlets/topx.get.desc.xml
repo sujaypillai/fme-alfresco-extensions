@@ -1,6 +1,0 @@
-<webscript>
-   <shortname>TOPX Dashlet</shortname>
-   <description>Display the top x documents for a given folder</description>
-   <family>dashlet</family>
-   <url>/components/dashlets/topx</url>
-</webscript>
