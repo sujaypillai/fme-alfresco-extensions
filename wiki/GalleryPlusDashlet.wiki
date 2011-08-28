@@ -5,6 +5,16 @@
 
 The Gallery Plus dashlet was developeed for the 2011 Alfresco dashlet challenge by Florian Maul. I features a thumbnail view and an popup dialog with an image preview.
 
+= Screenshots =
+
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-01.jpg
+
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-02.jpg
+
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-03.jpg
+
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-04.jpg
+
 = Preview =
 
 Currently only a video preview is available:
