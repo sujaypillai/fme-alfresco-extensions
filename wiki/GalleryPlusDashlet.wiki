@@ -62,14 +62,14 @@ You need to copy the *fme-gallery-plus-dashlet.jar* to two places because it con
   * Copy fme-gallery-plus-dashlet.jar to tomcat/shared/lib – this is where Share will pick it up.
   * (Re-)start Alfresco.
 
-== Using the Gallery Plus Dashlet ==
+= Using the Gallery Plus Dashlet =
 
   * The easiest way is to just add the dashlet to your user or site dashboard. By default it will display all images in your repository. Since it needs to generate thumbnails for your images this can take some time at the first run.
   * You can use the dashlet configuration dialog to further filter the images. See GalleryDashletConfiguration for more info on the options.
   * It is recommended to make use of the Album aspect. If you add the Album aspect to a folder thumbnails are automatically generated for all the images inside of that folder. 
   * All folders that have to album aspect assigned, will show up as image stacks in the album view.
 
-== Building from Source ==
+= Building from Source =
 
 An Ant build script is provided to build a JAR file containing the 
 custom files, which can then be installed into the 'tomcat/shared/lib' folder 
@@ -91,21 +91,6 @@ property in Ant.
     
 Once you have run this you will need to restart Tomcat so that the classpath 
 resources in the JAR file are picked up.
-
-= Using the dashlet =
-
-Please do the following steps to get the dashlet running:
-
-  * Log in to Alfresco Share and navigate to your user dashboard. Click the Customize Dashboard button to edit the contents of the dashboard and drag the dashlet into one of the columns from the list of dashlets. As well as user dashboards the dashlet can also be used on site dashboards. The dashlet should look like in file '(1) Alfresco Share » User Dashboard - TOPX Dashlet.png' 
-
-  * Create a example site, navigate to the documents-folder (documentLibrary) and create a rule (as can be seen in documentation/(2)attach_hitcounter_rule_share.png) for this folder.
-
-  * Upload some example documents in the share site. Try to download the file several times (Caveat: Share or Repository caches the downloaded file, so the download of a file will only count the first time!!)
-
-  * You can use the javascript file to add some example hitcount values to your example documents. 
-
-Please modify the path variable in line 4
--- var path='PATH:"/app:company_home/st:sites/cm:demosite/cm:documentLibrary//*"'; --  
 
 
 = Preview =
