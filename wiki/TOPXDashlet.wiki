@@ -30,6 +30,9 @@ Caveeats:
 To track the downloads, a java behaviour for the custom aspect was written 
 which gets informed about the download of a node. Please note that the behaviour only counts one download of a user per day for a certain document. 
 
+Please note that downloading content from admin users does not increase the counter! 
+*Please test with a normal user account!!!*
+
 === Browser support ===
   * Chrome and Firefox have been tested and work fine
 
