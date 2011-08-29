@@ -10,46 +10,46 @@ The Gallery Plus dashlet was developeed for the 2011 Alfresco dashlet challenge 
 ==Features==
 
 === The thumbnail view === 
-* Self-aligning grid that neatly aligns images of all dimensions
-* Images reflow when the window is resized and support dashlets of any size.
-* Automatic reloading while scrolling
-* Number of comments displayed in a small badge
-* Two different sizes of thumbnails (120px height and 200px height)
-* Images can be filtered by path or tags
-* Images can be sorted by an arbitrary property
-* Fade in/out animations to make things look smoother
+  * Self-aligning grid that neatly aligns images of all dimensions
+  * Images reflow when the window is resized and support dashlets of any size.
+  * Automatic reloading while scrolling
+  * Number of comments displayed in a small badge
+  * Two different sizes of thumbnails (120px height and 200px height)
+  * Images can be filtered by path or tags
+  * Images can be sorted by an arbitrary property
+  * Fade in/out animations to make things look smoother
 
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-01.jpg
 
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-04.jpg
 
 === The album view === 
-* Gives an overview over all album (aspect) folders in the repository
-* Displays albums with an image stack effect
-* Albums can be filtered by folder path
+  * Gives an overview over all album (aspect) folders in the repository
+  * Displays albums with an image stack effect
+  * Albums can be filtered by folder path
 
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-02.jpg
 
 === The image preview === 
-* The image preview gives a 800x600 view of the image
-* Images can be navigates by mouse (click the arrows), keyboard cursor keys and mouse wheel.
-* It displays the title and description of the image
-* It provides actions to jump to the document details page and to download the original image file.
-* On the right hand side it presents all comments for an image lets the user add a comment (if he has the permissions to do so).
+  * The image preview gives a 800x600 view of the image
+  * Images can be navigates by mouse (click the arrows), keyboard cursor keys and mouse wheel.
+  * It displays the title and description of the image
+  * It provides actions to jump to the document details page and to download the original image file.
+  * On the right hand side it presents all comments for an image lets the user add a comment (if he has the permissions to do so).
 
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-03.jpg
 
 
 
 === Repository Backend === 
-* Thumbnails can be created on demand but usually it is better to habe them created initially. A special Album aspect and a custom Action is provided to make thumbnail generation very easy.
-* The Album aspect is used to mark folders as albums and images placed in an album folder are automatically “thumbnailed”.
+  * Thumbnails can be created on demand but usually it is better to habe them created initially. A special Album aspect and a custom Action is provided to make thumbnail generation very easy.
+  * The Album aspect is used to mark folders as albums and images placed in an album folder are automatically “thumbnailed”.
 
 === Browser support ===
-* Chrome, Firefox, Safari have been tested and work fine
-* IE9 would work quite well, but is not fully supported by 3.4.x (ALF-9282)
-* IE9 (compatibility mode), IE8 work somehow but you are missing all of the bling.
-* Safari on iOS works, but quite slowly
+  * Chrome, Firefox, Safari have been tested and work fine
+  * IE9 would work quite well, but is not fully supported by 3.4.x (ALF-9282)
+  * IE9 (compatibility mode), IE8 work somehow but you are missing all of the bling.
+  * Safari on iOS works, but quite slowly
 
 
 == Installation ==
@@ -58,17 +58,17 @@ The component has been developed to install on top of an existing Alfresco
 3.4 installation.
 
 You need to copy the fme-gallery-plus-dashlet.jar to two places because it contains Java classes that have to go into the Alfresco repository. I would suggest to do the following:
-* Extract alfresco.war or let tomcat do it
-* Copy fme-gallery-plus-dashlet.jar to tomcat/webapps/alfresco/WEB-INF/lib/ 
-* Copy fme-gallery-plus-dashlet.jar to tomcat/shared/lib – this is where Share will pick it up.
-* (Re-)start Alfresco.
+  * Extract alfresco.war or let tomcat do it
+  * Copy fme-gallery-plus-dashlet.jar to tomcat/webapps/alfresco/WEB-INF/lib/ 
+  * Copy fme-gallery-plus-dashlet.jar to tomcat/shared/lib – this is where Share will pick it up.
+  * (Re-)start Alfresco.
 
 == Using the Gallery Plus Dashlet ==
 
-* The easiest way is to just add the dashlet to your user or site dashboard. By default it will display all images in your repository. Since it needs to generate thumbnails for you images it can take some time at the first run.
-* You can use the dashlet configuration dialog to further filter the images. See GalleryDashletConfiguration for more info on the options.
-* It is recommended to make use of the Album aspect. If you add the Album aspect to a folder thumbnails are automatically generated for all the images inside of that folder. 
-* Additionally all folders that have to album aspect assigned, will show up as image stacks in the album view.
+  * The easiest way is to just add the dashlet to your user or site dashboard. By default it will display all images in your repository. Since it needs to generate thumbnails for you images it can take some time at the first run.
+  * You can use the dashlet configuration dialog to further filter the images. See GalleryDashletConfiguration for more info on the options.
+  * It is recommended to make use of the Album aspect. If you add the Album aspect to a folder thumbnails are automatically generated for all the images inside of that folder. 
+  * Additionally all folders that have to album aspect assigned, will show up as image stacks in the album view.
 
 == Building the Source ==
 
