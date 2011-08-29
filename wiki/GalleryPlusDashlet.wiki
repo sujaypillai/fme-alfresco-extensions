@@ -39,6 +39,13 @@ http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet
 
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-03.jpg
 
+=== General ===
+  * can be used as user or site dashlet
+  * no restriction to a site, so images can be from any folder in the repository
+  * Localizable, ships with english and german language
+  * Can be used in mutliple instances on a single dashboard:
+   
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-05.jpg
 
 
 === Repository Backend === 
