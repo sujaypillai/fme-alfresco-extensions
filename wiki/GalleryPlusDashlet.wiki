@@ -5,7 +5,7 @@
 
 = Introduction =
 
-The Gallery Plus dashlet was developeed for the 2011 Alfresco dashlet challenge by Florian Maul. I features a thumbnail view and an popup dialog with an image preview.
+The Gallery Plus dashlet was developeed for the 2011 Alfresco dashlet challenge by Florian Maul. It features a thumbnail view, an albums view and an popup dialog with an image preview.
 
 ==Features==
 
@@ -52,12 +52,11 @@ http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet
   * Safari on iOS works, but quite slowly
 
 
-== Installation ==
+= Installation =
 
-The component has been developed to install on top of an existing Alfresco
-3.4 installation.
+The component has been developed to install on top of an existing Alfresco 3.4 installation.
 
-You need to copy the fme-gallery-plus-dashlet.jar to two places because it contains Java classes that have to go into the Alfresco repository. I would suggest to do the following:
+You need to copy the *fme-gallery-plus-dashlet.jar* to two places because it contains Java classes that have to go into the Alfresco repository. I would suggest to do the following:
   * Extract alfresco.war or let tomcat do it
   * Copy fme-gallery-plus-dashlet.jar to tomcat/webapps/alfresco/WEB-INF/lib/ 
   * Copy fme-gallery-plus-dashlet.jar to tomcat/shared/lib – this is where Share will pick it up.
@@ -65,12 +64,12 @@ You need to copy the fme-gallery-plus-dashlet.jar to two places because it conta
 
 == Using the Gallery Plus Dashlet ==
 
-  * The easiest way is to just add the dashlet to your user or site dashboard. By default it will display all images in your repository. Since it needs to generate thumbnails for you images it can take some time at the first run.
+  * The easiest way is to just add the dashlet to your user or site dashboard. By default it will display all images in your repository. Since it needs to generate thumbnails for your images this can take some time at the first run.
   * You can use the dashlet configuration dialog to further filter the images. See GalleryDashletConfiguration for more info on the options.
   * It is recommended to make use of the Album aspect. If you add the Album aspect to a folder thumbnails are automatically generated for all the images inside of that folder. 
-  * Additionally all folders that have to album aspect assigned, will show up as image stacks in the album view.
+  * All folders that have to album aspect assigned, will show up as image stacks in the album view.
 
-== Building the Source ==
+== Building from Source ==
 
 An Ant build script is provided to build a JAR file containing the 
 custom files, which can then be installed into the 'tomcat/shared/lib' folder 
@@ -93,7 +92,7 @@ property in Ant.
 Once you have run this you will need to restart Tomcat so that the classpath 
 resources in the JAR file are picked up.
 
-== Using the dashlet ==
+= Using the dashlet =
 
 Please do the following steps to get the dashlet running:
 
