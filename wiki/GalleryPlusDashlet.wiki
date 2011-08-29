@@ -65,7 +65,7 @@ You need to copy the *fme-gallery-plus-dashlet.jar* to two places because it con
 = Using the Gallery Plus Dashlet =
 
   * The easiest way is to just add the dashlet to your user or site dashboard. By default it will display all images in your repository. Since it needs to generate thumbnails for your images this can take some time at the first run.
-  * You can use the dashlet configuration dialog to further filter the images. See GalleryDashletConfiguration for more info on the options.
+  * You can use the dashlet configuration dialog to further filter the images. See GalleryPlusDashletConfiguration for more info on the options.
   * It is recommended to make use of the Album aspect. If you add the Album aspect to a folder thumbnails are automatically generated for all the images inside of that folder. 
   * All folders that have to album aspect assigned, will show up as image stacks in the album view.
 
