@@ -67,7 +67,11 @@ You need to copy the *fme-gallery-plus-dashlet.jar* to two places because it con
   * Extract alfresco.war or let tomcat do it
   * Copy fme-gallery-plus-dashlet.jar to tomcat/webapps/alfresco/WEB-INF/lib/ 
   * Copy fme-gallery-plus-dashlet.jar to tomcat/shared/lib – this is where Share will pick it up.
+  * Edit tomcat/shared/classes/web-extension/share-config-custom.xml and add the Album aspect as shown in the screenshot below.
   * (Re-)start Alfresco.
+
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-config-01.jpg
+
 
 = Using the Gallery Plus Dashlet =
 
