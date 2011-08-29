@@ -1,5 +1,0 @@
-#summary Explains the configuration of the Gallery Plus dashlet.
-
-= Gallery Plus Dashlet Configuration =
-
-_will be here soon..._
