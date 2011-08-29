@@ -2,4 +2,4 @@
 
 = Gallery Plus Dashlet Configuration =
 
-_will be here soon..._
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/Gallery%20Plus%20Dashlet/documentation/gallery-plus-screenshot-04.jpg
