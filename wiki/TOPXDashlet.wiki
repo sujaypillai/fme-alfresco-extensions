@@ -1,4 +1,6 @@
+#summary topx gallery dashlet for Alfresco Share which shows the most downloaded documents.
 #labels Phase-Deploy,Featured
+
 <wiki:toc max_depth="2" />
 = TOPX Dashlet for Alfresco Share =
 
@@ -27,17 +29,33 @@ Following features are implemented:
 Caveeats:
   * Maxitems is fix at the moment (no configuration provided)
 
+=== Browser support ===
+  * Chrome and Firefox have been tested and work fine
+
 == Screenshots ==
 
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/TopX%20Dashlet/documentation/(1)%20Alfresco%20Share%20%C2%BB%20User%20Dashboard%20-%20TOPX%20Dashlet.png
+
 == Installation ==
 
 The component has been developed to install on top of an existing Alfresco
 3.4 installation.
 
+You need to copy the *fme-topx-dashlet.jar* to two places because it contains Java classes that have to go into the Alfresco repository. I would suggest to do the following:
+  * Extract alfresco.war or let tomcat do it
+  * Copy fme-topx-dashlet.jar to tomcat/webapps/alfresco/WEB-INF/lib/ 
+  * Copy the jackson librars to tomcat/webapps/alfresco/WEB-INF/lib/ - they are needed by the webscript.
+  * Copy fme-topx-dashlet.jar to tomcat/shared/lib – this is where Share will pick it up.
+  * Edit tomcat/shared/classes/web-extension/share-config-custom.xml and add the countable aspect
+  * (Re-)start Alfresco.
+
+
+== Building from Source ==
+
 An Ant build script is provided to build a JAR file containing the 
 custom files, which can then be installed into the 'tomcat/shared/lib' folder 
 of your Alfresco installation.
+
 
 To build the JAR file, run the following command from the base project 
 directory.
