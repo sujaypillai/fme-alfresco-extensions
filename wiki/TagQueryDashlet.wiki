@@ -1,4 +1,5 @@
 #summary tag query dashlet for Alfresco Share which displays all documents of a site that are tagged with a configurable tag
+#labels Featured,dashlet,alfresco
 
 <wiki:toc max_depth="2" />
 = Tag Query Dashlet for Alfresco Share =
