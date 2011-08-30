@@ -44,9 +44,10 @@ The component has been developed to install on top of an existing Alfresco
 
 You need to copy the *fme-topx-dashlet.jar* to two places because it contains Java classes that have to go into the Alfresco repository. I would suggest to do the following:
   * Extract alfresco.war or let tomcat do it
-  * Copy fme-topx-dashlet.jar to tomcat/webapps/alfresco/WEB-INF/lib/ 
+  * Unpack the fme-topx-dashlet-0.1.zip
+  * Copy fme-topx-dashlet-0.1.jar to tomcat/webapps/alfresco/WEB-INF/lib/ 
   * Copy the jackson librars to tomcat/webapps/alfresco/WEB-INF/lib/ - they are needed by the webscript.
-  * Copy fme-topx-dashlet.jar to tomcat/shared/lib – this is where Share will pick it up.
+  * Copy fme-topx-dashlet-0.1.jar to tomcat/shared/lib – this is where Share will pick it up.
   * Edit tomcat/shared/classes/web-extension/share-config-custom.xml and add the countable aspect
   * (Re-)start Alfresco.
 
@@ -99,7 +100,7 @@ Please modify the path variable in line 4
 
 Testing the search webscript via url
 
-http://localhost:8080/alfresco/service/de/fme/dashlet/topx/find?queryType=d&maxItems=50
+http://localhost:8080/alfresco/service/de/fme/dashlet/topx/find?queryType=d&maxItems=10
 
 == Roadmap==
 
