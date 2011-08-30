@@ -65,11 +65,11 @@ Please do the following steps to get the dashlet running:
   * Log in to Alfresco Share and navigate to site dashboard where you are SiteManager Click the Customize Dashboard button to edit the contents of the dashboard and drag the dashlet into one of the columns from the list of dashlets. 
 Return to your site dashboard & click the configure link to open the configuration dialog of the dashlet:
 
-http://code.google.com/p/fme-alfresco-extensions/source/browse/trunk/Taq%20Query%20Dashlet/documentation/configure-dialog.png
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/Taq%20Query%20Dashlet/documentation/configure-dialog.png
 
 Once configured your dashlet should look like this:
 
-http://code.google.com/p/fme-alfresco-extensions/source/browse/trunk/Taq%20Query%20Dashlet/documentation/tag-query-dashlet.png
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/Taq%20Query%20Dashlet/documentation/tag-query-dashlet.png
 
 == Roadmap==
 
