@@ -17,7 +17,7 @@ Following features are implemented:
   * end user friendly configuration dialog (only accessible for SiteManagers)
 
 
-=== Repository WebScript changes ===
+=== Repository Web-Script changes ===
 
 To reuse the tag-picker control in the dashlet configuration dialog the repository webscript controller org/alfresco/repository/forms/pickeritems.post.json.js gets a small modification. It now support a text-based tag as parameter & not only a nodeRef-based tag param.
 
@@ -61,10 +61,14 @@ resources in the JAR file are picked up.
 
 Please do the following steps to get the dashlet running:
 
-  * Log in to Alfresco Share and navigate to site dashboard where you are SiteManager Click the Customize Dashboard button to edit the contents of the dashboard and drag the dashlet into one of the columns from the list of dashlets. The dashlet should look like below. 
+  * Log in to Alfresco Share and navigate to site dashboard where you are SiteManager Click the Customize Dashboard button to edit the contents of the dashboard and drag the dashlet into one of the columns from the list of dashlets. 
+Return to your site dashboard & click the configure link to open the configuration dialog of the dashlet:
 
-http://fme-alfresco-extensions.googlecode.com/svn/trunk/TopX%20Dashlet/documentation/(1)%20Alfresco%20Share%20%C2%BB%20User%20Dashboard%20-%20TOPX%20Dashlet.png
+http://code.google.com/p/fme-alfresco-extensions/source/browse/trunk/Taq%20Query%20Dashlet/documentation/configure-dialog.png
 
+Once configured your dashlet should look like this:
+
+http://code.google.com/p/fme-alfresco-extensions/source/browse/trunk/Taq%20Query%20Dashlet/documentation/tag-query-dashlet.png
 
 == Roadmap==
 
