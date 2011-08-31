@@ -4,7 +4,7 @@
 <wiki:toc max_depth="2" />
 = Tag Query Dashlet for Alfresco Share =
 
-Author: Jan Pfitzner (alfrescian.com & twitter.com/alfrescian)
+Author: Jan Pfitzner ([http://alfrescian.com alfrescian.com] & http://twitter.com/alfrescian twitter.com/alfrescian)
 
 This project defines a tag query document dashlet for the Alfresco Dashlet Challenge 2011.
 The dashlet displays a list of documents that are tagged with a configurable tag.
@@ -78,3 +78,5 @@ Following features are on the roadmap:
   * add support of wiki pages, links, blog posts etc.
   * support user-dashlet mode
   * add nice & smart content preview dialog
+----
+powered by [http://www.fme.de fme]
