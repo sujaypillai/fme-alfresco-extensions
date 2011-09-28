@@ -34,7 +34,7 @@ You need to copy the *fme-script-bootstrap.jar* into the alfresco web app becaus
   * When the jar is installed in the alfresco webapp it looks for scripts in the classpath. All scripts matching this pattern are executed: alfresco/extension/bootstrap-scripts/`*`.js
   * In the sourcecode repository you can find [http://code.google.com/p/fme-alfresco-extensions/source/browse/trunk/Script+Bootstrap/#Script%20Bootstrap%2Fexamples%2Fbootstrap-scripts two example scripts]: 
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/Script%20Bootstrap/documentation/screenshot_01.png
-  * This example script [http://code.google.com/p/fme-alfresco-extensions/source/browse/trunk/Script+Bootstrap/examples/bootstrap-scripts/create+project+structure.js create project structure.js] creates a folder structure in a Share site like this:
+  * The example script [http://code.google.com/p/fme-alfresco-extensions/source/browse/trunk/Script+Bootstrap/examples/bootstrap-scripts/create+project+structure.js create project structure.js] creates a folder structure in a Share site like this:
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/Script%20Bootstrap/documentation/screenshot_02.png
   * You can put as many javascript files as you like into the tomcat/shared/classes/alfresco/extension/bootstrap-scripts/ folder or into a corresponding folder in any JAR file.
   * The scripts are executed at each startup of the Alfresco repository
