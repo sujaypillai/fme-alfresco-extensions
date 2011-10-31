@@ -1,0 +1,14 @@
+<alfresco-config>
+
+	<config evaluator="string-compare" condition="DocumentLibrary">
+		<aspects>
+
+			<!-- Aspects that a user can see in UI. Used by Rules, aspects are the 
+				listed aspects for rule's "has-aspect" action condition. -->
+			<visible>
+				<aspect name="topx:countable" />
+			</visible>
+			
+		</aspects>
+	</config>
+</alfresco-config>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="source/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SDK AlfrescoEmbedded"/>
+	<classpathentry kind="lib" path="lib/ml-ant-http-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/yui-compressor-ant-task-0.5.jar"/>
+	<classpathentry kind="lib" path="lib/yuicompressor-2.4.2.jar"/>
+	<classpathentry kind="lib" path="lib/jackson/jackson-core-asl-1.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/jackson/jackson-jaxrs-1.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/jackson/jackson-mapper-asl-1.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/jackson/jackson-mrbean-1.8.5.jar"/>
+	<classpathentry kind="lib" path="lib/jackson/jackson-xc-1.8.5.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
