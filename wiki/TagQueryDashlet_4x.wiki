@@ -1,6 +1,7 @@
 #labels Featured,dashlet,4.0
 *_This wiki pages describes the Tag Query Dashlet for Alfresco 4.x
-wiki page of the Alfresco 3.4.x version compliant dashlet_*: http://code.google.com/p/fme-alfresco-extensions/wiki/TagQueryDashlet_Alfresco3x
+wiki page of the Alfresco 3.4.x version compliant dashlet_*: 
+[TagQueryDashlet_34x Tag Query Dashlet for Alfresco 3.4.x]
 ----
 
 #summary tag query dashlet for Alfresco Share which displays all documents of a site that are tagged with a configurable tag
