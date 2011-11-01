@@ -7,6 +7,8 @@
 
 The Gallery Plus dashlet was developed for the [http://www.alfresco.com/community/resources/tools/dashlet-challenge/ 2011 Alfresco dashlet challenge] by [http://twitter.com/fmaul Florian Maul]. It is an image gallery dashlet that features a thumbnail view, an albums view and an popup dialog with an image preview.
 
+*Update 2011-11-01:* Some background on the programming logic of the grid rendering can be found in my blog: [http://www.techbits.de/2011/10/25/building-a-google-plus-inspired-image-gallery/]
+
 ==Features==
 
 === The thumbnail view === 
