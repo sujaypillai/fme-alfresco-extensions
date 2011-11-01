@@ -43,14 +43,14 @@ The component has been developed to install on top of an existing Alfresco 4.0.b
 
 Please do the following steps to get the dashlet running:
 
-  * Log in to Alfresco Share and navigate to site dashboard where you are SiteManager Click the Customize Dashboard button to edit the contents of the dashboard and drag the dashlet into one of the columns from the list of dashlets. 
+  * Log in to Alfresco Share and navigate to site dashboard where you are Site-Manager Click the Customize Dashboard button to edit the contents of the dashboard and drag the dashlet into one of the columns from the list of dashlets. 
 Return to your site dashboard & click the configure/edit icon in the dashlet header to open the configuration dialog of the dashlet:
 
 http://fme-alfresco-extensions.googlecode.com/svn/trunk/Taq%20Query%20Dashlet/documentation/configure-dialog.png
 
 Once configured your dashlet should look like this:
 
-http://fme-alfresco-extensions.googlecode.com/svn/trunk/Taq%20Query%20Dashlet/documentation/tag-query-dashlet-4-x.png
+http://fme-alfresco-extensions.googlecode.com/svn/trunk/Taq%20Query%20Dashlet/documentation/tag-query-dashlet-4.x.png
 
 == Roadmap==
 
