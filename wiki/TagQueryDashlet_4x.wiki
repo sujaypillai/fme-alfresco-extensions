@@ -1,5 +1,6 @@
 #labels Featured,dashlet,4.0
 *_This wiki pages describes the Tag Query Dashlet for Alfresco 4.x
+
 wiki page of the Alfresco 3.4.x version compliant dashlet_*: 
 [TagQueryDashlet_34x Tag Query Dashlet for Alfresco 3.4.x]
 ----
