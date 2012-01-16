@@ -44,42 +44,34 @@ http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extende
 
 ===Upload & Attach===
 
-Following features are implemented:
-  * simple & detail view
-  * display a thumbnail of the documents (simple view: on mouse-over).
-  * display the favorite status & allows the user to mark/unmark a document as favorite (detail view only)
-  * display the likes & allows the user to like/unlike a document (detail view only)
-  * display a link to comment on a document (detail view only)
-  * list uses paging with a configurable page size
-  * end user friendly configuration dialog (only accessible for SiteManagers)
+To support the direct attachment of a file to a datalist item that isn’t already stored in the repo an upload&attach action was added to cm:attachment-control.
+
+http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extended%20Datalist%20-%20Repository/documentation/Screenshot-datalist-uploadattach.png
+
+===XLS Export===
+Nick Burch had already developed a basic XLS-export WebScript. We resused that one & added support for fm:discussable comment threads.
+
+XLS-Export button is displayed in the datalist toolbar.
+
+http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extended%20Datalist%20-%20Repository/documentation/Screenshot-datalist-xls-export.png
+
+===Filters===
+We added form based filters for each type of datalists to allow an user-friendly filtering of datalist items. These filters are also based on Alfresco's FormService and browser history & URL addressability are suppported.
+
+http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extended%20Datalist%20-%20Repository/documentation/Screenshot-datalist-filter-form.png
 
 
-=== Repository Web-Script changes ===
-
-To reuse the tag-picker control in the dashlet configuration dialog the repository webscript controller org/alfresco/repository/forms/pickeritems.post.json.js gets a small modification. It now support a text-based tag as parameter & not only a nodeRef-based tag param.
-
-=== Browser support ===
-  * Chrome and Firefox have been tested and work fine
+== Browser support ===
+  * Chrome, IE8 and Firefox have been tested and should work fine
 
 
 == Installation ==
 
-The component has been developed to install on top of an existing Alfresco 4.0.b (Community)
+The component has been developed to install on top of an existing Alfresco 3.4.2 (Enterprise)
 
-You need to copy the *tag-query-dashlet.jar* to tomcat/shared/lib.
+You need to copy the *fme-datalist-extension-repository.jar* to tomcat/webapps/alfresco/WEB-INF/lib and *fme-datalist-extension-share.jar* to tomcat/webapps/share/WEB-INF/lib.
 
-== Using the dashlet ==
-
-Please do the following steps to get the dashlet running:
-
-  * Log in to Alfresco Share and navigate to site dashboard where you are Site-Manager Click the Customize Dashboard button to edit the contents of the dashboard and drag the dashlet into one of the columns from the list of dashlets. 
-Return to your site dashboard & click the configure/edit icon in the dashlet header to open the configuration dialog of the dashlet:
-
-http://fme-alfresco-extensions.googlecode.com/svn/trunk/Taq%20Query%20Dashlet/documentation/tag-query-dashlet-config-4.x.png
-
-Once configured your dashlet should look like this:
-
-http://fme-alfresco-extensions.googlecode.com/svn/trunk/Taq%20Query%20Dashlet/documentation/tag-query-dashlet-4.x.png
+== Migration of existing datalists ==
 
 == Roadmap==
 
