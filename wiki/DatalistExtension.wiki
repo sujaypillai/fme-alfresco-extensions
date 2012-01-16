@@ -72,14 +72,10 @@ The component has been developed to install on top of an existing Alfresco 3.4.2
 You need to copy the *fme-datalist-extension-repository.jar* to tomcat/webapps/alfresco/WEB-INF/lib and *fme-datalist-extension-share.jar* to tomcat/webapps/share/WEB-INF/lib.
 
 == Migration of existing datalists ==
+Existing datalists have to be migrated/upgrade to be used within this extension.
 
-== Roadmap==
+Use http://code.google.com/p/share-extras/wiki/JavascriptConsole to execute http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extended%20Datalist%20-%20Repository/post-deploy/migrate-datalist.js
 
-Following features are on the roadmap:
-  * add support of categories
-  * add support of wiki pages, links, blog posts etc.
-  * support user-dashlet mode
-  * add nice & smart content preview dialog
 ----
 powered by [http://www.fme.de fme]
 
