@@ -5,7 +5,7 @@
 Please feel free to contribute a 4.0 compliant version or contact us if you like to sponsor such an upgrade. 
 ----
 
-<wiki:toc max_depth="2" />
+<wiki:toc max_depth="3" />
 = Datalist Extensions for Alfresco Share =
 
 Author: Jan Pfitzner ([http://alfrescian.com alfrescian.com] & [http://twitter.com/alfrescian twitter.com/alfrescian] & j.pfitzner(at)fme.de)
