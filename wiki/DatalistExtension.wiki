@@ -72,7 +72,7 @@ http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extende
 
 The component has been developed to install on top of an existing Alfresco 3.4.2 (Enterprise)
 
-You need to copy the *fme-datalist-extension-repository.jar* to tomcat/webapps/alfresco/WEB-INF/lib and *fme-datalist-extension-share.jar* to tomcat/webapps/share/WEB-INF/lib.
+You need to copy the [http://code.google.com/p/fme-alfresco-extensions/downloads/detail?name=fme-datalist-extension-repository.jar fme-datalist-extension-repository.jar] to tomcat/webapps/alfresco/WEB-INF/lib and [http://code.google.com/p/fme-alfresco-extensions/downloads/detail?name=fme-datalist-extension-share.jar fme-datalist-extension-share.jar] to tomcat/webapps/share/WEB-INF/lib.
 
 == Migration of existing datalists ==
 Existing datalists have to be migrated/upgrade to be used within this extension.
