@@ -16,6 +16,9 @@ This Extension was made for an Alfresco customer of [http://www.fme.de fme AG]
 ===Automatic ID generation===
 automatic generation of an ID for each item of a datalist. These IDs are generated using a separate ID sequence on each datalist.
 
+http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme extended Datalist - Repository/documentation/Screenshot-datalist-IDs.png
+
+
 
 
 
