@@ -18,7 +18,23 @@ automatic generation of an ID for each item of a datalist. These IDs are generat
 
 http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extended%20Datalist%20-%20Repository/documentation/Screenshot-datalist-IDs.png
 
+===Read-only/view dialog===
+Double clicking an item displays a view-mode form using Alfresco FormService.
 
+http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extended%20Datalist%20-%20Repository/documentation/Screenshot-datalist-view-mode-Form.png
+
+===Auto versioning===
+Aspect cm:versionable with auto-version on property changes is applied to each datalist item. A custom policy triggers versioning if an association was modified  - e.g. dl:assignee.
+
+To display the version history of a datalist item a new FormService control was implemented. The show version link will open the selected version in another view-mode dialog.
+
+http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extended%20Datalist%20-%20Repository/documentation/Screenshot-datalist-version-control.png
+
+===Comments thread===
+
+Alfresco only supports a simple comment field, but you often like to have a discussion thread as you have in the document library. Hence we added support of fm:discussable aspect to datalist items including the necessary form controls & FormFilters.
+
+http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extended%20Datalist%20-%20Repository/documentation/Screenshot-datalist-comment-control.png
 
 
 
