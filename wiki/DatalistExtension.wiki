@@ -79,6 +79,10 @@ Existing datalists have to be migrated/upgrade to be used within this extension.
 
 Use http://code.google.com/p/share-extras/wiki/JavascriptConsole to execute http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/fme%20extended%20Datalist%20-%20Repository/post-deploy/migrate-datalist.js
 
+== Source Code ==
+Thus these extension aren't compatible with Alfresco 4.x the Source Code is available in our pre-4x. branch:
+{{{http://fme-alfresco-extensions.googlecode.com/svn/branches/pre-4.x/}}}
+
 ----
 powered by [http://www.fme.de fme]
 
