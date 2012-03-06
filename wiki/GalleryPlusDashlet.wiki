@@ -9,6 +9,8 @@ The Gallery Plus dashlet was developed for the [http://www.alfresco.com/communit
 
 *Update 2011-11-01:* Some background on the programming logic of the grid rendering can be found in my blog: [http://www.techbits.de/2011/10/25/building-a-google-plus-inspired-image-gallery/]
 
+<wiki:video url="http://www.youtube.com/watch?v=gtzGvTRXt24"/>
+
 ==Features==
 
 === The thumbnail view === 
@@ -100,10 +102,3 @@ property in Ant.
     
 Once you have run this you will need to restart Tomcat so that the classpath 
 resources in the JAR file are picked up.
-
-
-= Preview =
-
-In August 2011 I posted this preview video of the dashlet:
-
-<wiki:video url="http://www.youtube.com/watch?v=CPRgZgtpDqw"/>
